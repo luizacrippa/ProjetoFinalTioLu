@@ -1,0 +1,54 @@
+/* TELA LOGIN */
+.navbar{
+	text-align: center;
+}
+
+#botao{
+	text-align: center;
+}
+
+.jumbotron{
+	background-color: #FF6347;
+}
+
+.botLogin{
+	text-align: center;
+}
+
+.telaLogin{
+	margin-top: 5px;
+}
+
+.login{
+	background-color: #FF6347;
+	margin-top: 110px;
+	border-radius: 20px;
+	border-style: black;
+}
+
+img#logo{
+	margin-left: 100px;
+}
+
+div#background_telaLogin{
+	background-image: url("http://localhost/ProjetoFinal/imagens/fundoo.jpg");
+	width: 100%;
+	height: 610px;
+}
+
+footer{
+	background-color: #FF6347;
+}
+
+/* TELA MENU */
+
+img#logo_menu{
+	width: 110px;
+	height: 100px;
+}
+
+pre{
+	color: white;
+	margin-left: -90px;
+	font-size: 14px;
+}

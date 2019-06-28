@@ -74,7 +74,7 @@
             <div class="card">
               <img class="card-img-top" alt="Imagem de capa do card" src="<?php echo $noticia["imagem"];?>">
               <div class="card-body">
-                <h5 class="card-title"><?php echo $noticia["titulo"];?></h5>
+                <a href="?pagina=noticia&id=<?php echo $noticia["id"];?>"><h5 class="card-title"><?php echo $noticia["titulo"];?></h5></a>
                 <p class="card-text font-weight-light"><?php echo $noticia["resumo"];?></p>
                 <a href="?pagina=noticia&id=<?php echo $noticia["id"];?>" class="btn btn-danger">Ler mais</a>
               </div>

@@ -7,7 +7,7 @@ if (array_key_exists("remover", $_GET)) {
   $removeAviso->execute(array(":id" => $id));
   
   if ($removeAviso->rowCount() > 0) {
-    include("Location: ?pagina=home");
+    header("Location: ?pagina=home");
   } else {
     die("Não foi possível remover o aviso!!!");
   }

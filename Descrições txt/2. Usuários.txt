@@ -1,0 +1,5 @@
+Níveis de Usuários:
+
+luizacrippa - 12345
+admin_noticias - 123
+admin_avisos - 123 

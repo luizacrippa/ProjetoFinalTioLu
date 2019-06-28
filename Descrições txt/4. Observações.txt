@@ -1,0 +1,5 @@
+Observações:
+
+As datas de cadastro, disponibilidade e expiração não são apresentadas na tela, somente armazenadas
+no banco. O mesmo com o usuário que cadastrou a notícia/aviso. Aparece como id_usuario - a pessoa que
+realizou o cadastro.

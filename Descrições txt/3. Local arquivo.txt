@@ -1,0 +1,3 @@
+C:\www\Noticiario
+
+banco.php

@@ -23,13 +23,13 @@
                 <div class="col-md-4">
                 </div>
                 <div class="col-md-4 login">
-                    <form name="form_login" action="index.php" method="post">
-                        <img id="logo" src="imagens/Logo.jpg" class="rounded-circle col-md-5 mt-2 d-block">
+                    <form name="form_login" action="?pagina=login" method="post">
+                        <img id="logo" src="<?php echo $empresa["logo"];?>" class="rounded-circle col-md-5 mt-2 d-block">
                         <div class="form-group justify-content">
                             <label for="exampleInputLogin" class="mt-4">
                                 <font size="4" color="white" face="Times New Roman">Login</font>
                             </label>
-                            <input type="text" name="usuario" class="form-control" placeholder="Login">
+                            <input type="text" name="login" class="form-control" placeholder="Login">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">
